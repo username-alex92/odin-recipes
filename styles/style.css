@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #EAE7DC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #AC3B61;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.list-recipes {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.list-recipes li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.list-recipes li a:hover {
+    background-color: #EDC7B7;
+    transition: .4s;
+}
